@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDK-iOS'
-  s.version          = '1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Bonnus SDK for iOS.'
  
   s.description      = <<-DESC
