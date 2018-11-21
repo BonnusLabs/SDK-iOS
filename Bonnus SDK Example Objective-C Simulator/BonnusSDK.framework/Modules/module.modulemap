@@ -1,0 +1,11 @@
+framework module BonnusSDK {
+  umbrella header "BonnusSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module BonnusSDK.Swift {
+    header "BonnusSDK-Swift.h"
+    requires objc
+}

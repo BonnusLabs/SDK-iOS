@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14205E5C21A525F200EF426C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14205E5B21A525F200EF426C /* AppDelegate.m */; };
+		14205E5F21A525F200EF426C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14205E5E21A525F200EF426C /* ViewController.m */; };
+		14205E6221A525F200EF426C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14205E6021A525F200EF426C /* Main.storyboard */; };
+		14205E6421A525F300EF426C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14205E6321A525F300EF426C /* Assets.xcassets */; };
+		14205E6721A525F300EF426C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14205E6521A525F300EF426C /* LaunchScreen.storyboard */; };
+		14205E6A21A525F300EF426C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14205E6921A525F300EF426C /* main.m */; };
+		14205E7A21A529AD00EF426C /* BonnusSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14205E7821A529AD00EF426C /* BonnusSDK.framework */; };
+		14205E7B21A529AD00EF426C /* BonnusSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 14205E7821A529AD00EF426C /* BonnusSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		14205E7C21A529AE00EF426C /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14205E7921A529AD00EF426C /* ObjectMapper.framework */; };
+		14205E7D21A529AE00EF426C /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 14205E7921A529AD00EF426C /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AB1D36B7620F72BF85E0AA44 /* libPods-Bonnus SDK Example Objective C.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F6CDD14CDC44F08A783F5C /* libPods-Bonnus SDK Example Objective C.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		14205E7621A5271900EF426C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				14205E7D21A529AE00EF426C /* ObjectMapper.framework in Embed Frameworks */,
+				14205E7B21A529AD00EF426C /* BonnusSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14205E5721A525F200EF426C /* Bonnus SDK Example Objective C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonnus SDK Example Objective C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14205E5A21A525F200EF426C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14205E5B21A525F200EF426C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14205E5D21A525F200EF426C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14205E5E21A525F200EF426C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14205E6121A525F200EF426C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14205E6321A525F300EF426C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14205E6621A525F300EF426C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14205E6821A525F300EF426C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14205E6921A525F300EF426C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14205E7821A529AD00EF426C /* BonnusSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BonnusSDK.framework; sourceTree = "<group>"; };
+		14205E7921A529AD00EF426C /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = "<group>"; };
+		16F6CDD14CDC44F08A783F5C /* libPods-Bonnus SDK Example Objective C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bonnus SDK Example Objective C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27270D049935B9CD7E12ACF8 /* Pods-Bonnus SDK Example Objective C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bonnus SDK Example Objective C.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bonnus SDK Example Objective C/Pods-Bonnus SDK Example Objective C.debug.xcconfig"; sourceTree = "<group>"; };
+		DB4913C4738887EABAE8D29C /* Pods-Bonnus SDK Example Objective C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bonnus SDK Example Objective C.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bonnus SDK Example Objective C/Pods-Bonnus SDK Example Objective C.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14205E5421A525F200EF426C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14205E7C21A529AE00EF426C /* ObjectMapper.framework in Frameworks */,
+				14205E7A21A529AD00EF426C /* BonnusSDK.framework in Frameworks */,
+				AB1D36B7620F72BF85E0AA44 /* libPods-Bonnus SDK Example Objective C.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14205E4E21A525F200EF426C = {
+			isa = PBXGroup;
+			children = (
+				14205E7821A529AD00EF426C /* BonnusSDK.framework */,
+				14205E7921A529AD00EF426C /* ObjectMapper.framework */,
+				14205E5921A525F200EF426C /* Bonnus SDK Example Objective C */,
+				14205E5821A525F200EF426C /* Products */,
+				C10D3656A1F0ED4A34134B05 /* Pods */,
+				E8D4345583A2C2BC54EC3FDA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14205E5821A525F200EF426C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14205E5721A525F200EF426C /* Bonnus SDK Example Objective C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14205E5921A525F200EF426C /* Bonnus SDK Example Objective C */ = {
+			isa = PBXGroup;
+			children = (
+				14205E5A21A525F200EF426C /* AppDelegate.h */,
+				14205E5B21A525F200EF426C /* AppDelegate.m */,
+				14205E5D21A525F200EF426C /* ViewController.h */,
+				14205E5E21A525F200EF426C /* ViewController.m */,
+				14205E6021A525F200EF426C /* Main.storyboard */,
+				14205E6321A525F300EF426C /* Assets.xcassets */,
+				14205E6521A525F300EF426C /* LaunchScreen.storyboard */,
+				14205E6821A525F300EF426C /* Info.plist */,
+				14205E6921A525F300EF426C /* main.m */,
+			);
+			path = "Bonnus SDK Example Objective C";
+			sourceTree = "<group>";
+		};
+		C10D3656A1F0ED4A34134B05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27270D049935B9CD7E12ACF8 /* Pods-Bonnus SDK Example Objective C.debug.xcconfig */,
+				DB4913C4738887EABAE8D29C /* Pods-Bonnus SDK Example Objective C.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8D4345583A2C2BC54EC3FDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16F6CDD14CDC44F08A783F5C /* libPods-Bonnus SDK Example Objective C.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14205E5621A525F200EF426C /* Bonnus SDK Example Objective C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14205E6D21A525F300EF426C /* Build configuration list for PBXNativeTarget "Bonnus SDK Example Objective C" */;
+			buildPhases = (
+				494823855DAC2C079E398C4F /* [CP] Check Pods Manifest.lock */,
+				14205E5321A525F200EF426C /* Sources */,
+				14205E5421A525F200EF426C /* Frameworks */,
+				14205E5521A525F200EF426C /* Resources */,
+				14205E7621A5271900EF426C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bonnus SDK Example Objective C";
+			productName = "Bonnus SDK Example Objective C";
+			productReference = 14205E5721A525F200EF426C /* Bonnus SDK Example Objective C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14205E4F21A525F200EF426C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Bonnus;
+				TargetAttributes = {
+					14205E5621A525F200EF426C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 14205E5221A525F200EF426C /* Build configuration list for PBXProject "Bonnus SDK Example Objective C" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14205E4E21A525F200EF426C;
+			productRefGroup = 14205E5821A525F200EF426C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14205E5621A525F200EF426C /* Bonnus SDK Example Objective C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14205E5521A525F200EF426C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14205E6721A525F300EF426C /* LaunchScreen.storyboard in Resources */,
+				14205E6421A525F300EF426C /* Assets.xcassets in Resources */,
+				14205E6221A525F200EF426C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		494823855DAC2C079E398C4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bonnus SDK Example Objective C-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14205E5321A525F200EF426C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14205E5F21A525F200EF426C /* ViewController.m in Sources */,
+				14205E6A21A525F300EF426C /* main.m in Sources */,
+				14205E5C21A525F200EF426C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14205E6021A525F200EF426C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14205E6121A525F200EF426C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14205E6521A525F300EF426C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14205E6621A525F300EF426C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14205E6B21A525F300EF426C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14205E6C21A525F300EF426C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14205E6E21A525F300EF426C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27270D049935B9CD7E12ACF8 /* Pods-Bonnus SDK Example Objective C.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G78WA842RT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Bonnus SDK Example Objective C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonnus.Bonnus-SDK-Example-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14205E6F21A525F300EF426C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4913C4738887EABAE8D29C /* Pods-Bonnus SDK Example Objective C.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G78WA842RT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Bonnus SDK Example Objective C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bonnus.Bonnus-SDK-Example-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14205E5221A525F200EF426C /* Build configuration list for PBXProject "Bonnus SDK Example Objective C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14205E6B21A525F300EF426C /* Debug */,
+				14205E6C21A525F300EF426C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14205E6D21A525F300EF426C /* Build configuration list for PBXNativeTarget "Bonnus SDK Example Objective C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14205E6E21A525F300EF426C /* Debug */,
+				14205E6F21A525F300EF426C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14205E4F21A525F200EF426C /* Project object */;
+}
