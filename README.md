@@ -1,6 +1,6 @@
-# Bonnus SDK iOS V1.0
+# Bonnus SDK iOS V1.1
 
-- Release 03 Octubre 2018. V1.0
+- Release 20 Noviembre 2018. V1.1
     
 Configuración del SDK de Bonnus para iOS.
 
@@ -105,3 +105,9 @@ mv "$FRAMEWORK_EXECUTABLE_PATH-merged" "$FRAMEWORK_EXECUTABLE_PATH"
 ```
 Simpre este script debe aparecer debajo de “Embed Frameworks”.
  
+ 
+* Versión 1.1 :
+
+- Al redimir un cupon y ser necesario salir de la aplicacion se cerrara la ventana de Bonnus correspondiente.
+- Compatible con iOS 10
+- Compatibilidad Con Objective C
