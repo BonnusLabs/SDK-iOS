@@ -1,6 +1,6 @@
-# Bonnus SDK iOS V1.1
+# Bonnus SDK iOS V1.2
 
-- Release 20 Noviembre 2018. V1.1
+- Release 20 Noviembre 2018. V1.2
     
 Configuración del SDK de Bonnus para iOS.
 
@@ -111,3 +111,9 @@ Simpre este script debe aparecer debajo de “Embed Frameworks”.
 - Al redimir un cupon y ser necesario salir de la aplicacion se cerrara la ventana de Bonnus correspondiente.
 - Compatible con iOS 10
 - Compatibilidad Con Objective C
+
+* Versión 1.2 :
+
+- Se agrega campo de fecha para mostrar vigencia de cupón en la lista de recompensas.
+- Se filtran cupones Expirados para no ser mostrados en la lista
+- Se agrega boton ver más en celdas de recompnsas 
