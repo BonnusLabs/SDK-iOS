@@ -22,7 +22,7 @@ Bonnus.instance.setupBonnus(UIApplication: application)
 
 - Credenciales para inicio de sesión en la API de Bonnus:
 
-Para usar el SDK, tenemos que instanciarlo una vez cada vez que la aplicación abra :
+Para usar el SDK, tenemos que instanciarlo una vez, cada que la aplicación abra :
 (userID es opcional, pero recomendado)
 ```
       Bonnus.instance.initWithCredentials(partnerID: "PartnerID - asignado",
