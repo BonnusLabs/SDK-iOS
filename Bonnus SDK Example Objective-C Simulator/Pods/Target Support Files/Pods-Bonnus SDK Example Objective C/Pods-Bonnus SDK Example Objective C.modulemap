@@ -1,6 +1,0 @@
-module Pods_Bonnus_SDK_Example_Objective_C {
-  umbrella header "Pods-Bonnus SDK Example Objective C-umbrella.h"
-
-  export *
-  module * { export * }
-}
