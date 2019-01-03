@@ -4,6 +4,12 @@
     
 Configuración del SDK de Bonnus para iOS.
 
+
+Pre Requisitos:
+
+* Bonnus SDK necesita implementar ObjectMapper, este puede ser instalado por medio de CocoaPods o submodularlo manualmente.
+
+
 - Incluir el archivo BonnusSDK.framework al proyecto:
 
 Para agregar el SDK, lo arrastramos a nuestro proyecto desde el area de navegación de Xcode:
@@ -22,7 +28,7 @@ Bonnus.instance.setupBonnus(UIApplication: application)
 
 - Credenciales para inicio de sesión en la API de Bonnus:
 
-Para usar el SDK, tenemos que instanciarlo una vez cada vez que la aplicación abra :
+Para usar el SDK, tenemos que instanciarlo una vez, cada que la aplicación abra :
 (userID es opcional, pero recomendado)
 ```
       Bonnus.instance.initWithCredentials(partnerID: "PartnerID - asignado",
