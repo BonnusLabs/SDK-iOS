@@ -1,5 +1,10 @@
 # Bonnus SDK iOS V1.2
 
+Pre Requisitos:
+
+# Bonnus SDK necesita implementar ObjectMapper, este puede ser instalado por medio de CocoaPods o submodularlo manualmente.
+
+
 - Release 20 Noviembre 2018. V1.2
     
 Configuración del SDK de Bonnus para iOS.
