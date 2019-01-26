@@ -96,7 +96,7 @@ Ahora la APP puede consultar si el SDK está activo.
  ```
    UserSettings.setBirthday(date: "26/01/1980") //Formato DD/MM/YYYY
    
-   UserSettings.setGender(gender: "M")  // Una sola letr M o F
+   UserSettings.setGender(gender: "M")  // Una sola letra M o F
    
    UserSettings.setZipCode(zipcode: "01400")
    
