@@ -1,7 +1,7 @@
-# Bonnus SDK iOS V1.2
+# Bonnus SDK iOS V1.3
 
-- Release 20 Noviembre 2018. V1.2
-    
+- Release 26 Enero 2019. V1.3
+   
 Configuración del SDK de Bonnus para iOS.
 
 
@@ -90,6 +90,23 @@ Ahora la APP puede consultar si el SDK está activo.
  let result = UserSettings.isSDKStarted() 
  ``` 
  
+ Disponible en la versión 1.3 o Superiror: Se pueden asignar valores para segmentacion
+  de usuarios:
+  
+ ```
+   UserSettings.setBirthday(date: "26/01/1980") //Formato DD/MM/YYYY
+   
+   UserSettings.setGender(gender: "M")  // Una sola letr M o F
+   
+   UserSettings.setZipCode(zipcode: "01400")
+   
+   UserSettings.setGeo(latitude: "19.1234" , longitude: "-99.1234")
+
+
+ ``` 
+ 
+ Inicializar nuevamente el SDK para mandar actualizaciones en la segmentacion de usuarios
+ 
 * El framework fue adaptado para funcionar de manera optima en simulador y dispositivo único, por lo que se necesita agregar un Run Script para poder remover la arquitectura del simulador y poder mandar la aplicación a la AppStore
 
 Seleciona el proyecto, Elige el Target → Project Name → Select Build Phases → Click “+” → New Run Script Phase → Nombra el Script:  “Remove Unused Architectures Script”. 
@@ -122,4 +139,9 @@ Simpre este script debe aparecer debajo de “Embed Frameworks”.
 
 - Se agrega campo de fecha para mostrar vigencia de cupón en la lista de recompensas.
 - Se filtran cupones Expirados para no ser mostrados en la lista
-- Se agrega boton ver más en celdas de recompnsas 
+- Se agrega boton ver más en celdas de recompensas 
+
+
+* Versión 1.3 :
+
+- Se agrega funcionalidad para segmentación de usuarios
