@@ -1,6 +1,6 @@
-# Bonnus SDK iOS V1.3
+# Bonnus SDK iOS V1.4
 
-- Release 26 Enero 2019. V1.3
+- Release 02 Mayo 2019. v1.4
    
 Configuración del SDK de Bonnus para iOS.
 
@@ -145,3 +145,11 @@ Simpre este script debe aparecer debajo de “Embed Frameworks”.
 * Versión 1.3 :
 
 - Se agrega funcionalidad para segmentación de usuarios
+
+* Versión 1.4 : 
+
+- Se implementa compatibilidad con Swift 5 y xCode 10.2.1
+- Se habilita la bandera para mostrar/ocultar notificaciones con API
+- Se habilita la bandera para reutilizar momentos
+- Mejoras en seguridad y rendimiento.
+- Se ocultan algunos mensajes de error al no responder Servicios.
