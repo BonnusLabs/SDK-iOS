@@ -13,8 +13,8 @@
 		141FDC2E212B9DA70077EBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141FDC2D212B9DA70077EBCA /* Main.storyboard */; };
 		141FDCDC212E455A0077EBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141FDCDB212E455A0077EBCA /* Assets.xcassets */; };
 		141FDCEE212E4B640077EBCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141FDCED212E4B640077EBCA /* Images.xcassets */; };
-		14B2BE1C21FC2B290072AF87 /* BonnusSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B2BE1B21FC2B290072AF87 /* BonnusSDK.framework */; };
-		14B2BE1D21FC2B290072AF87 /* BonnusSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 14B2BE1B21FC2B290072AF87 /* BonnusSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		14533A9F228A769600FC4BA9 /* BonnusSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14533A9E228A769600FC4BA9 /* BonnusSDK.framework */; };
+		14533AA0228A769600FC4BA9 /* BonnusSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 14533A9E228A769600FC4BA9 /* BonnusSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4636AE783DC96B2789C2891A /* Pods_Testing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A6EE36EC223ECFFC819E4D /* Pods_Testing.framework */; };
 		C8F3DDEE21F910E30082B7C8 /* InfoFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F3DDED21F910E30082B7C8 /* InfoFormViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,7 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				14B2BE1D21FC2B290072AF87 /* BonnusSDK.framework in Embed Frameworks */,
+				14533AA0228A769600FC4BA9 /* BonnusSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,7 +42,7 @@
 		141FDC2D212B9DA70077EBCA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		141FDCDB212E455A0077EBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		141FDCED212E4B640077EBCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		14B2BE1B21FC2B290072AF87 /* BonnusSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BonnusSDK.framework; sourceTree = "<group>"; };
+		14533A9E228A769600FC4BA9 /* BonnusSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BonnusSDK.framework; sourceTree = "<group>"; };
 		6A19AC9DA493620D31FC2929 /* Pods-Testing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Testing/Pods-Testing.release.xcconfig"; sourceTree = "<group>"; };
 		91A6EE36EC223ECFFC819E4D /* Pods_Testing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Testing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DD8480B0A46FAF3DA248D4 /* Pods-Testing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Testing/Pods-Testing.debug.xcconfig"; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14B2BE1C21FC2B290072AF87 /* BonnusSDK.framework in Frameworks */,
+				14533A9F228A769600FC4BA9 /* BonnusSDK.framework in Frameworks */,
 				4636AE783DC96B2789C2891A /* Pods_Testing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,7 +65,7 @@
 		141FDC0D212B9D660077EBCA = {
 			isa = PBXGroup;
 			children = (
-				14B2BE1B21FC2B290072AF87 /* BonnusSDK.framework */,
+				14533A9E228A769600FC4BA9 /* BonnusSDK.framework */,
 				141FDC18212B9D660077EBCA /* Testing */,
 				141FDC17212B9D660077EBCA /* Products */,
 				30ADF2FFA337774B263C7921 /* Pods */,
