@@ -107,6 +107,28 @@ Ahora la APP puede consultar si el SDK está activo.
  
  Inicializar nuevamente el SDK para mandar actualizaciones en la segmentacion de usuarios
  
+ 
+ Disponible en la versión 1.4.1 o Superiror: Se pueden implementar los delegados al momento de canjear un cupón:
+
+asignando el controlador que sera el delagado con el método setCuponDelegate y luego implementando la extensión de los delegados
+ 
+ ```
+  Bonnus.instance.setCuponDelegate(delegate: self)
+ 
+ extension DemoViewController: cuponDelegate {
+    func didClickRedeemButton() {
+        print("Redeem Button Clicked")
+    }
+    
+    func didClickSaveButton() {
+        print("CloseButton Clicked")
+    }
+ }
+
+ 
+ ``` 
+ 
+ 
 * El framework fue adaptado para funcionar de manera optima en simulador y dispositivo único, por lo que se necesita agregar un Run Script para poder remover la arquitectura del simulador y poder mandar la aplicación a la AppStore
 
 Seleciona el proyecto, Elige el Target → Project Name → Select Build Phases → Click “+” → New Run Script Phase → Nombra el Script:  “Remove Unused Architectures Script”. 
@@ -153,3 +175,12 @@ Simpre este script debe aparecer debajo de “Embed Frameworks”.
 - Se habilita la bandera para reutilizar momentos
 - Mejoras en seguridad y rendimiento.
 - Se ocultan algunos mensajes de error al no responder Servicios.
+
+
+* Versión 1.4.2 : 
+
+- Se implementa delegados para manejar el flujo de una manera más personalizada
+- Se utiliza la bandera para mostrar/ocultar términos y condciones.
+
+
+
