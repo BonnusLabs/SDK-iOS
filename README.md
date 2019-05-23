@@ -1,6 +1,6 @@
-# Bonnus SDK iOS V1.4
+# Bonnus SDK iOS V1.4.2
 
-- Release 02 Mayo 2019. v1.4
+- Release 02 Mayo 2019. v1.4.2
    
 Configuración del SDK de Bonnus para iOS.
 
