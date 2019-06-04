@@ -1,6 +1,6 @@
-# Bonnus SDK iOS V1.4.2
+# Bonnus SDK iOS V1.4.5
 
-- Release 02 Mayo 2019. v1.4.2
+- Release 03 Jun 2019. v1.4.5
    
 Configuración del SDK de Bonnus para iOS.
 
@@ -116,17 +116,60 @@ asignando el controlador que sera el delagado con el método setCuponDelegate y 
   Bonnus.instance.setCuponDelegate(delegate: self)
  
  extension DemoViewController: cuponDelegate {
-    func didClickRedeemButton() {
-        print("Redeem Button Clicked")
+    func onRewardActionListener(rewardAction: Bool) {
+        if rewardAction {
+            print("User redeem cupon")
+        } else {
+            print("User declined ")
+        }
     }
     
-    func didClickSaveButton() {
-        print("CloseButton Clicked")
+    func onEarnedBonnusListener(data: CallBackData) {
+        print("Campaign ID")
+        print(data.campaignId)
+        print("codeBonnus")
+        print(data.codeBonnus)
+        
     }
  }
 
  
  ``` 
+Nuevo delegado implementado para la confiuración del SDK
+ ```
+   Bonnus.instance.setBonnusDelegate(delegate: self)
+
+       func onSDKConfigRemoteListener(isActive: Bool) {
+        if isActive {
+            print("SDK set up was succesfull")
+        } else {
+             print("Somethong wrong happen SDK is not ready")
+        }
+    }
+
+ ``` 
+
+Para consultar el estatus del SDK: 
+
+ ```
+   let status = Bonnus.instance.isSDKActivated()
+   
+ ``` 
+ 
+ Para forzar la actualización del SDK se puede utilizar la siguiente función:
+ 
+ ```
+ Bonnus.instance.readRemoteData()
+ 
+ ``` 
+ 
+  Para resetear el SDK se puede utilizar la siguiente función:
+ 
+ ```
+ Bonnus.instance.resetSDK()
+ 
+ ``` 
+
  
  
 * El framework fue adaptado para funcionar de manera optima en simulador y dispositivo único, por lo que se necesita agregar un Run Script para poder remover la arquitectura del simulador y poder mandar la aplicación a la AppStore
@@ -181,6 +224,19 @@ Simpre este script debe aparecer debajo de “Embed Frameworks”.
 
 - Se implementa delegados para manejar el flujo de una manera más personalizada
 - Se utiliza la bandera para mostrar/ocultar términos y condciones.
+
+* Versón 1.4.5 :
+- Correción de bugs menores
+- Se elimina ObjectMapper de Bundle 
+- Se actualiza nombre de delegados para homologar versión con Android
+- Se agrega nuevo Callback para SDK config
+- Se puede consultar el status del SDK
+- Se aplican colores a fondos y textos
+- Se cambian códigos en cupones
+- Forzar update de SDK implementado
+- Obtener valores del cupó
+- Se obtiene data de cupones cangeados
+
 
 
 
