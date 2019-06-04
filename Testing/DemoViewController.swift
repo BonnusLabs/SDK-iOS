@@ -25,7 +25,16 @@ class DemoViewController: UIViewController {
         super.viewDidLoad()
         checkStatusForSDK()
         Bonnus.instance.setCuponDelegate(delegate: self)
+        Bonnus.instance.setBonnusDelegate(delegate: self)
 
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let status = Bonnus.instance.isSDKActivated()
+        if status {
+            print("SDK is READY!!!")
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -92,10 +101,32 @@ class DemoViewController: UIViewController {
 }
 
 extension DemoViewController: cuponDelegate {
-    func didClickRedeemButton() {
-        print("Redeem Button Clicked")
+    func onRewardActionListener(rewardAction: Bool) {
+        if rewardAction {
+            print("User redeem cupon")
+        } else {
+            print("User declined ")
+        }
     }
-    func didClickSaveButton() {
-        print("CloseButton Clicked")
+    
+    func onEarnedBonnusListener(data: CallBackData) {
+        print("Campaign ID")
+        print(data.campaignId)
+        print("codeBonnus")
+        print(data.codeBonnus)
+        
     }
+    
+  
+}
+
+extension DemoViewController:BonnusDelegate {
+    func onSDKConfigRemoteListener(isActive: Bool) {
+        if isActive {
+            print("SDK set up was succesfull")
+        } else {
+             print("Somethong wrong happen SDK is not ready")
+        }
+    }
+    
 }
