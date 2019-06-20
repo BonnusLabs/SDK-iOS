@@ -75,7 +75,7 @@ class DemoViewController: UIViewController {
     }
 
     @IBAction func ClickButtonFive(_ sender: Any) {
-        Bonnus.instance.tryToRedeemPrice(momento: "Momento5ddf")
+        
     }
 
     @IBAction func ClickButtonRewards(_ sender: Any) {

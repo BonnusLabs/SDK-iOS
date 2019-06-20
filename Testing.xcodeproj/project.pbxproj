@@ -13,20 +13,22 @@
 		141FDC2E212B9DA70077EBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141FDC2D212B9DA70077EBCA /* Main.storyboard */; };
 		141FDCDC212E455A0077EBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141FDCDB212E455A0077EBCA /* Assets.xcassets */; };
 		141FDCEE212E4B640077EBCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141FDCED212E4B640077EBCA /* Images.xcassets */; };
-		145FDCEB22A9CC8100FB7DD2 /* BonnusSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145FDCEA22A9CC8100FB7DD2 /* BonnusSDK.framework */; };
-		145FDCEC22A9CC8100FB7DD2 /* BonnusSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 145FDCEA22A9CC8100FB7DD2 /* BonnusSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4636AE783DC96B2789C2891A /* Pods_Testing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A6EE36EC223ECFFC819E4D /* Pods_Testing.framework */; };
+		C86F6EC122BBFB550089140E /* NewPreModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86F6EC022BBFB550089140E /* NewPreModalViewController.swift */; };
+		C86F6EC322BC00C20089140E /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86F6EC222BC00C20089140E /* ModalViewController.swift */; };
+		C86F6F0022BC360A0089140E /* BonnusSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86F6EFF22BC360A0089140E /* BonnusSDK.framework */; };
+		C86F6F0122BC360A0089140E /* BonnusSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C86F6EFF22BC360A0089140E /* BonnusSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C8F3DDEE21F910E30082B7C8 /* InfoFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F3DDED21F910E30082B7C8 /* InfoFormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C81BFC3822A5D35000F47946 /* Embed Frameworks */ = {
+		C86F6ED722BC0AF30089140E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				145FDCEC22A9CC8100FB7DD2 /* BonnusSDK.framework in Embed Frameworks */,
+				C86F6F0122BC360A0089140E /* BonnusSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,10 +44,12 @@
 		141FDC2D212B9DA70077EBCA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		141FDCDB212E455A0077EBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		141FDCED212E4B640077EBCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		145FDCEA22A9CC8100FB7DD2 /* BonnusSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BonnusSDK.framework; sourceTree = "<group>"; };
 		6A19AC9DA493620D31FC2929 /* Pods-Testing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Testing/Pods-Testing.release.xcconfig"; sourceTree = "<group>"; };
 		91A6EE36EC223ECFFC819E4D /* Pods_Testing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Testing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DD8480B0A46FAF3DA248D4 /* Pods-Testing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Testing/Pods-Testing.debug.xcconfig"; sourceTree = "<group>"; };
+		C86F6EC022BBFB550089140E /* NewPreModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPreModalViewController.swift; sourceTree = "<group>"; };
+		C86F6EC222BC00C20089140E /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		C86F6EFF22BC360A0089140E /* BonnusSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BonnusSDK.framework; sourceTree = "<group>"; };
 		C8F3DDED21F910E30082B7C8 /* InfoFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoFormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				145FDCEB22A9CC8100FB7DD2 /* BonnusSDK.framework in Frameworks */,
+				C86F6F0022BC360A0089140E /* BonnusSDK.framework in Frameworks */,
 				4636AE783DC96B2789C2891A /* Pods_Testing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,7 +69,7 @@
 		141FDC0D212B9D660077EBCA = {
 			isa = PBXGroup;
 			children = (
-				145FDCEA22A9CC8100FB7DD2 /* BonnusSDK.framework */,
+				C86F6EFF22BC360A0089140E /* BonnusSDK.framework */,
 				141FDC18212B9D660077EBCA /* Testing */,
 				141FDC17212B9D660077EBCA /* Products */,
 				30ADF2FFA337774B263C7921 /* Pods */,
@@ -92,6 +96,8 @@
 				141FDC22212B9D680077EBCA /* LaunchScreen.storyboard */,
 				141FDC25212B9D680077EBCA /* Info.plist */,
 				141FDCED212E4B640077EBCA /* Images.xcassets */,
+				C86F6EC022BBFB550089140E /* NewPreModalViewController.swift */,
+				C86F6EC222BC00C20089140E /* ModalViewController.swift */,
 			);
 			path = Testing;
 			sourceTree = "<group>";
@@ -125,7 +131,7 @@
 				141FDC13212B9D660077EBCA /* Frameworks */,
 				141FDC14212B9D660077EBCA /* Resources */,
 				5102B9857E95DA2F07485253 /* [CP] Embed Pods Frameworks */,
-				C81BFC3822A5D35000F47946 /* Embed Frameworks */,
+				C86F6ED722BC0AF30089140E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,8 +234,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				141FDC1A212B9D660077EBCA /* AppDelegate.swift in Sources */,
+				C86F6EC322BC00C20089140E /* ModalViewController.swift in Sources */,
 				141FDC2C212B9DA10077EBCA /* DemoViewController.swift in Sources */,
 				C8F3DDEE21F910E30082B7C8 /* InfoFormViewController.swift in Sources */,
+				C86F6EC122BBFB550089140E /* NewPreModalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
