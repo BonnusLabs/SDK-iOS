@@ -1,6 +1,6 @@
-# Bonnus SDK iOS V1.4.5
+# Bonnus SDK iOS V1.4.6
 
-- Release 03 Jun 2019. v1.4.5
+- Release 21 Jun 2019. v1.4.6
    
 Configuración del SDK de Bonnus para iOS.
 
@@ -170,7 +170,16 @@ Para consultar el estatus del SDK:
  
  ``` 
 
+  Disponible en la versión 1.4.6 o Superiror: Se pueden mostrar los cupones de Bonnus en view controllers presentados en forma Modal Agregano las siguientes dos lineas de código en la pantalla Modal que va a presentar el cupón antes de llamar el ´Try to redeem´ :
  
+ ```
+  override func viewDidLoad() {
+        super.viewDidLoad()
+        Bonnus.instance.isModal = true
+        Bonnus.instance.modalViewController = self
+
+    }
+ ``` 
  
 * El framework fue adaptado para funcionar de manera optima en simulador y dispositivo único, por lo que se necesita agregar un Run Script para poder remover la arquitectura del simulador y poder mandar la aplicación a la AppStore
 
@@ -237,6 +246,10 @@ Simpre este script debe aparecer debajo de “Embed Frameworks”.
 - Obtener valores del cupó
 - Se obtiene data de cupones cangeados
 
+* Versón 1.4.6 :
+- Soporte a navegación Modal implementada
+- Homologación de callbacks con android
+- Se oculta el "Loader Success" al configurar el SDK
 
 
 
