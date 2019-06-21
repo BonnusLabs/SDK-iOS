@@ -205,8 +205,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRD-uF-gzI">
-                                <rect key="frame" x="164.5" y="350.5" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="91.5" y="350.5" width="192" height="30"/>
+                                <state key="normal" title="Push to New ViewController"/>
                                 <connections>
                                     <segue destination="e4Z-x1-cI9" kind="show" id="nA0-ix-FeZ"/>
                                 </connections>
@@ -233,8 +233,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gz3-ye-R4h">
-                                <rect key="frame" x="164.5" y="350.5" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="93" y="350.5" width="189" height="30"/>
+                                <state key="normal" title="Show Modal ViewController"/>
                                 <connections>
                                     <action selector="showModalView:" destination="e4Z-x1-cI9" eventType="touchUpInside" id="qva-3t-1aM"/>
                                 </connections>
