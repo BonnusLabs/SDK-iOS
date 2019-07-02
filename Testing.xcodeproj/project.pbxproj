@@ -13,8 +13,8 @@
 		141FDC2E212B9DA70077EBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141FDC2D212B9DA70077EBCA /* Main.storyboard */; };
 		141FDCDC212E455A0077EBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141FDCDB212E455A0077EBCA /* Assets.xcassets */; };
 		141FDCEE212E4B640077EBCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141FDCED212E4B640077EBCA /* Images.xcassets */; };
-		148D9A2722BD1EC400293247 /* BonnusSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148D9A2622BD1EC400293247 /* BonnusSDK.framework */; };
-		148D9A2822BD1EC400293247 /* BonnusSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 148D9A2622BD1EC400293247 /* BonnusSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		145931D922CC1F0800233003 /* BonnusSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145931D822CC1F0800233003 /* BonnusSDK.framework */; };
+		145931DA22CC1F0800233003 /* BonnusSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 145931D822CC1F0800233003 /* BonnusSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4636AE783DC96B2789C2891A /* Pods_Testing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A6EE36EC223ECFFC819E4D /* Pods_Testing.framework */; };
 		C86F6EC122BBFB550089140E /* NewPreModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86F6EC022BBFB550089140E /* NewPreModalViewController.swift */; };
 		C86F6EC322BC00C20089140E /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86F6EC222BC00C20089140E /* ModalViewController.swift */; };
@@ -22,13 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C86F6ED722BC0AF30089140E /* Embed Frameworks */ = {
+		C8931BF022CBDC31006C28D4 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				148D9A2822BD1EC400293247 /* BonnusSDK.framework in Embed Frameworks */,
+				145931DA22CC1F0800233003 /* BonnusSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,7 +44,7 @@
 		141FDC2D212B9DA70077EBCA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		141FDCDB212E455A0077EBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		141FDCED212E4B640077EBCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		148D9A2622BD1EC400293247 /* BonnusSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BonnusSDK.framework; sourceTree = "<group>"; };
+		145931D822CC1F0800233003 /* BonnusSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BonnusSDK.framework; sourceTree = "<group>"; };
 		6A19AC9DA493620D31FC2929 /* Pods-Testing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Testing/Pods-Testing.release.xcconfig"; sourceTree = "<group>"; };
 		91A6EE36EC223ECFFC819E4D /* Pods_Testing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Testing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DD8480B0A46FAF3DA248D4 /* Pods-Testing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Testing/Pods-Testing.debug.xcconfig"; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				148D9A2722BD1EC400293247 /* BonnusSDK.framework in Frameworks */,
+				145931D922CC1F0800233003 /* BonnusSDK.framework in Frameworks */,
 				4636AE783DC96B2789C2891A /* Pods_Testing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,7 +69,7 @@
 		141FDC0D212B9D660077EBCA = {
 			isa = PBXGroup;
 			children = (
-				148D9A2622BD1EC400293247 /* BonnusSDK.framework */,
+				145931D822CC1F0800233003 /* BonnusSDK.framework */,
 				141FDC18212B9D660077EBCA /* Testing */,
 				141FDC17212B9D660077EBCA /* Products */,
 				30ADF2FFA337774B263C7921 /* Pods */,
@@ -131,7 +131,7 @@
 				141FDC13212B9D660077EBCA /* Frameworks */,
 				141FDC14212B9D660077EBCA /* Resources */,
 				5102B9857E95DA2F07485253 /* [CP] Embed Pods Frameworks */,
-				C86F6ED722BC0AF30089140E /* Embed Frameworks */,
+				C8931BF022CBDC31006C28D4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
