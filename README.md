@@ -1,9 +1,12 @@
-# Bonnus SDK iOS V1.4.6
+# Bonnus SDK iOS V1.4.7
+
+- Release 22 Oct 2019. v1.4.7
+
+Soporte iOS 13 Swift 5.1
 
 - Release 21 Jun 2019. v1.4.6
    
 Configuración del SDK de Bonnus para iOS.
-
 
 Pre Requisitos:
 
