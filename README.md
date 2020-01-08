@@ -1,4 +1,8 @@
-# Bonnus SDK iOS V1.4.7
+# Bonnus SDK iOS V1.4.8
+
+- Release 22 Oct 2019. v1.4.8
+Soporte iOS 13 Swift 5.1.2
+
 
 - Release 22 Oct 2019. v1.4.7
 
